@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+code, pre {
+  background: rgb(225, 225, 225);
+  width: 100%;
+}
+
+.img50 {
+  width: 50%;
+}
+
+.img25 {
+  width: 25%;
+}
+
+.comm {
+  font-style: italic;
+  font-size: 14px;
+  padding: 0 10px;
+  line-height: 1.3;
+  border: 1px dashed rgb(225, 225, 225);
+  ;
+  border-top: none;
+  background: rgb(225, 225, 225);
+  margin-top: -12px;
+  width: 95%;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+li {
+  display: grid;
+  justify-content: center;
+  margin: 5px;
+  margin-bottom: 30px;
+
+}
+
+ul>pre, li>pre {
+  margin-left: -2%;
+}
+
+/* @media only screen and (max-width: 600px) {
+  ul > pre,
+  li > pre {
+    
+  }
+
+  .comm {
+
+  }
+  pre {
+    
+  }
+} */
+
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+h1 {
+  color: rgb(100, 56, 2);
+  text-align: center;
+}
+
+h2 {
+  line-height: 20px;
+  text-decoration: underline;
+  color: rgb(100, 56, 2);
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.cont {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+
+}
+
+.color {
+  color: rgb(54 76 196);
+  font-family: monospace;
+}
+
+.block {
+  padding: 10px;
+  max-width: 1350px;
+  background: rgb(186, 225, 186);
+}
+
+.image, .no-scale {
+  margin: 0 auto;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.image img {
+  transition: transform 0.3s ease;
+}
+
+.image img:hover {
+  transform: scale(2);
+}
+
+.no-scale:hover {
+  transform: scale(1);
+}
+
+.content {
+  margin: 30px 0;
+}
+
+pre {
+  padding: 10px 5px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* перенос текста в pre */
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+
+.comment {
+  margin: 30px;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgb(234, 234, 234);
+  border: 2px dashed orangered;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bg {
+  background-color: rgba(255, 255, 0, 0.402);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
